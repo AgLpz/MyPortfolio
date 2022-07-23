@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://wallpaperaccess.com/full/1947484.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+
+#inicio .contenido header {
+    background: linear-gradient(rgba(0,0,0,.8)) ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+}
+
+#inicio .contenido header .contenidoHeader{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+
+
+}
+#inicio .contenido header .contenidoHeader h1{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+
+#inicio .contenido header .contenidoHeader nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+#inicio .contenido header .contenidoHeader nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+
+    
+}
+
+#inicio .contenido header .contenidoHeader nav ul a:hover {
+    color: royalblue;
+}
+
+
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 90vh;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: royalblue;
+}
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#inicio .contenido .presentacion h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+#inicio .contenido .presentacion h2 span {
+    color: salmon;
+    text-transform: uppercase;
+
+}
+#inicio .contenido .presentacion .descripcion {
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+#iconoNav {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ABOUT ME */
+
+#aboutMe {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color:#111135;
+    display: flex;
+}
+
+#aboutMe .contenedorFoto {
+    max-width: 400px;
+    margin-right: 190px; /* cambio yo */
+
+}
+#aboutMe .contenedorFoto img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 200px;
+background-color:royalblue ;    
+
+}
+
+#aboutMe .aboutMe {
+    margin: 0px 40px ;
+
+}
+
+#aboutMe .aboutMe .tituloSeccion {
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-decoration-thickness: 5px;
+
+}
+#aboutMe .aboutMe h2{
+    font-size: 30px;
+font-weight: bold;
+margin: 20px;
+color: salmon;
+letter-spacing: 1px;
+
+}
+
+#aboutMe .aboutMe h2 span:hover{
+    color: seagreen;
+    transition: .9s;
+}
+
+#aboutMe .aboutMe h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+#aboutMe .aboutMe p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 10px;
+}
+#aboutMe .aboutMe a{
+    display: inline-block;
+    text-decoration:none;
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    transition: .9s;
+
+}
+#aboutMe .aboutMe a:hover{
+    background-color:salmon;
+    color: #FFF;
+
+}
+
+
+/* Seccion Skils */
+
+#skills {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: #f3f3f3;
+
+}
+#skills .tituloSeccion {
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: royalblue;
+    text-decoration-thickness: 5px;
+
+}
+#skills .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px  auto;
+}
+
+#skills .fila .skill{
+    max-width: 350px;
+    background-color: #FFF;
+    padding: 30px;
+    margin: 0 5px;
+    border-right: 5px;
+    border-radius: 10px;
+    border: solid 1px royalblue;
+    transition: .5s;
+}
+#skills .fila .skill:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+
+}
+
+
+
+
+
